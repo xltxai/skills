@@ -1,6 +1,8 @@
 # xltxai/skills
 
-小律同学 Agent Skills catalog。每个 skill 一个目录，给 DeepSeek Harness / OpenClaw / Hermes / SkillHub / Cursor 共用。
+[![skills.sh](https://skills.sh/b/xltxai/skills)](https://skills.sh/xltxai/skills)
+
+小律同学 Agent Skills catalog。每个 skill 一个目录，给 DeepSeek Harness / OpenClaw / Hermes / SkillHub / Cursor / Claude Code 共用。
 
 ## Skills
 
@@ -16,17 +18,25 @@
 # Cursor / skills.sh
 npx skills add xltxai/skills
 
+# Claude Code
+claude plugin marketplace add xltxai/skills
+claude plugin install xiaolv-skills@xiaolv-skills
+
 # DeepSeek Harness（扫 ~/.agents/skills）
 git clone https://github.com/xltxai/skills.git
 cp -R skills/skills/mcp-law-search ~/.agents/skills/mcp-law-search
 
 # DeepSeek Harness 插件（一次装入仓内全部 skill）
 dsh plugin --profile web add github:xltxai/skills
+# 或
+npx dshpub add xltxai/skills --profile web
 
 # Hermes
 hermes skills tap add xltxai/skills
+hermes skills install xltxai/skills/mcp-law-search
 
-# OpenClaw：对本仓 skills/* 做 GitHub Import，或
+# OpenClaw / ClawHub
+# 从 https://clawhub.ai/import 导入本仓，或
 clawhub skill publish ./skills/mcp-law-search \
   --slug mcp-law-search \
   --name "跨境法律合规·小律同学AI" \
@@ -35,6 +45,21 @@ clawhub skill publish ./skills/mcp-law-search \
 ```
 
 单个 skill 也可以只拷 `skills/<name>`。
+
+## 停用 / 卸载
+
+```bash
+# DeepSeek Harness 插件
+dsh plugin --profile web remove github:xltxai/skills
+
+# Hermes
+hermes skills uninstall xltxai/skills/mcp-law-search
+hermes skills tap remove xltxai/skills
+
+# Claude Code
+claude plugin uninstall xiaolv-skills@xiaolv-skills
+claude plugin marketplace remove xiaolv-skills
+```
 
 ## 加新 skill
 

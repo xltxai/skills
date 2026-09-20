@@ -1,0 +1,19 @@
+{
+  "name": "xiaolv-skills",
+  "description": "小律同学 Agent Skills：跨境法律合规检索（168 国法规 / 境内外案例）",
+  "version": "1.0.3",
+  "author": {
+    "name": "小律同学 AI",
+    "url": "https://github.com/xltxai"
+  },
+  "homepage": "https://github.com/xltxai/skills",
+  "repository": "https://github.com/xltxai/skills",
+  "license": "MIT-0",
+  "keywords": [
+    "legal",
+    "compliance",
+    "research",
+    "cross-border",
+    "mcp"
+  ]
+}

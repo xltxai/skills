@@ -1,0 +1,29 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "xiaolv-skills",
+  "description": "小律同学 Agent Skills catalog",
+  "version": "1.0.3",
+  "owner": {
+    "name": "广东小律同学人工智能科技有限公司",
+    "url": "https://github.com/xltxai"
+  },
+  "plugins": [
+    {
+      "name": "xiaolv-skills",
+      "displayName": "小律同学 Skills",
+      "source": "./",
+      "description": "跨境法律合规·小律同学AI：168 国法规 / 境内外案例语义检索",
+      "version": "1.0.3",
+      "category": "productivity",
+      "tags": ["legal", "compliance", "research"],
+      "keywords": ["legal-search", "cross-border", "mcp", "aixllaw"],
+      "homepage": "https://skillhub.cn/skills/org-tz5v519f/mcp-law-search-skill",
+      "repository": "https://github.com/xltxai/skills",
+      "license": "MIT-0",
+      "author": {
+        "name": "小律同学 AI",
+        "url": "https://github.com/xltxai"
+      }
+    }
+  ]
+}
