@@ -15,7 +15,16 @@ metadata:
   author: 小律同学 AI
   display_name: 跨境法律合规·小律同学AI
   display_subtitle: 中企出海合规 / 168国法规 / 境内外案例检索
-  description_en: Cross-border legal compliance skill for Chinese enterprises going global: semantic search across 168 countries/regions (foreign statutes, international treaties, compliance requirements) plus domestic Chinese regulations, judicial interpretations, and guiding cases. Typical scenarios: California data privacy compliance, German labor law dismissal procedures, Vietnam investment negative lists, contract review, sentencing and compensation calculation. Works out of the box with a free built-in quota (no registration or API key required); results are annotated with source type and validity status. Not suitable for real-time legal news or litigation strategy for specific cases.
+  description_en: >-
+    Cross-border legal compliance skill for Chinese enterprises going global:
+    semantic search across 168 countries/regions (foreign statutes, international
+    treaties, compliance requirements) plus domestic Chinese regulations, judicial
+    interpretations, and guiding cases. Typical scenarios: California data privacy
+    compliance, German labor law dismissal procedures, Vietnam investment negative
+    lists, contract review, sentencing and compensation calculation. Works out of
+    the box with a free built-in quota (no registration or API key required);
+    results are annotated with source type and validity status. Not suitable for
+    real-time legal news or litigation strategy for specific cases.
   openclaw:
     emoji: "⚖️"
     homepage: https://skillhub.cn/skills/org-tz5v519f/mcp-law-search-skill
