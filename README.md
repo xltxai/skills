@@ -1,6 +1,7 @@
 # xltxai/skills
 
 [![skills.sh](https://skills.sh/b/xltxai/skills)](https://skills.sh/xltxai/skills)
+[![dsh.pub registry status](https://dsh.pub/api/badges/xltxai/skills.svg)](https://dsh.pub/en/plugins/?q=xltxai%2Fskills)
 
 小律同学 Agent Skills catalog。每个 skill 一个目录，给 DeepSeek Harness / OpenClaw / Hermes / SkillHub / Cursor / Claude Code 共用。
 
