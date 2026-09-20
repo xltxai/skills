@@ -1,0 +1,38 @@
+{
+  "name": "xiaolv-skills",
+  "version": "1.0.3",
+  "description": "小律同学 Agent Skills catalog + DeepSeek Harness skill provider",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT-0",
+  "homepage": "https://github.com/xltxai/skills",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xltxai/skills.git"
+  },
+  "keywords": [
+    "agent-skills",
+    "legal-search",
+    "openclaw",
+    "hermes",
+    "deepseek-harness",
+    "dsh-plugin"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

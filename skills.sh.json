@@ -1,0 +1,10 @@
+{
+  "$schema": "https://skills.sh/schema.json",
+  "name": "xiaolv-skills",
+  "groupings": [
+    {
+      "title": "Legal & Compliance",
+      "skills": ["mcp-law-search"]
+    }
+  ]
+}

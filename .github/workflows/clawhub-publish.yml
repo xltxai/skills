@@ -1,0 +1,22 @@
+name: clawhub-publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      skill_path:
+        description: Optional single skill folder, e.g. skills/mcp-law-search
+        required: false
+      dry_run:
+        type: boolean
+        default: true
+
+jobs:
+  publish:
+    uses: openclaw/clawhub/.github/workflows/skill-publish.yml@main
+    with:
+      owner: xltxai
+      root: skills
+      skill_path: ${{ inputs.skill_path }}
+      dry_run: ${{ inputs.dry_run }}
+    secrets:
+      clawhub_token: ${{ secrets.CLAWHUB_TOKEN }}
